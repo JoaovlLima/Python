@@ -107,8 +107,65 @@ else:
 valorDolar = int(input("Digite seu valor em dolar "))
 valorEuro = valorDolar * 0.93
 valorLibra = valorDolar * 0.79
-print(f"Seu Valor em Euro "+str(valorEuro)+"\n Seu Valor em Libras"+str(valorLibra))
+print(f"Seu Valor em Euro "+str(valorEuro)+"\n Seu Valor em Libras "+str(valorLibra))
 
+# 2 - Manipulação de Strings:
+# Crie uma função que receba uma string como entrada e retorne True se ela for um palíndromo (lê-se igual de trás para frente), 
+# e False caso contrário.
+
+palavra = input("insira uma palavra ")
+
+palavraInvertida = palavra[::-1]
+print(palavra +"  "+ palavraInvertida)
+
+if palavra == palavraInvertida:
+   palidromo = True
+else: palidromo = False
+
+print("o palidrome é "+str(palidromo))
+
+# Implemente um programa que recebe uma frase do usuário e identifica a palavra mais longa na frase.
+
+frase = input("digite uma frase ")
+
+palavras = frase.split()
+
+palavraLonga = ""
+
+for palavr in palavras:
+   if len(palavr) > len(palavraLonga):
+      palavraLonga = palavr
+
+
+print("A palavra mais longa é '"+palavraLonga+"'")
+
+
+
+# 3 - Utilização de Listas e Tuplas:
+# Escreva uma função que receba uma lista de números e retorne outra lista contendo apenas os números primos.
+listNumbs = [1,11,20,13,39,47]
+numPrimo = []
+def primo(verifNumbs):
+   if verifNumbs < 2:
+      return False
+   
+   for i in range(2,int((verifNumbs ** 0.5))+1):
+
+       if verifNumbs % i == 0: 
+        return False
+   return True
+
+for listNumbPrimo in listNumbs :
+   if primo(listNumbPrimo):
+      numPrimo.append(listNumbPrimo)
+      
+if not numPrimo:
+    print("Não há nenhum número primo na lista.")
+else:
+    print("Os números primos são:", str(numPrimo))  
+   
+
+# Crie um programa que simule uma fila de atendimento em um banco. Utilize uma lista para representar a fila e implemente funções para adicionar clientes, remover clientes e mostrar a posição de um cliente específico na fila.
 
 
 
