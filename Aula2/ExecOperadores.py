@@ -166,8 +166,27 @@ else:
    
 
 # Crie um programa que simule uma fila de atendimento em um banco. Utilize uma lista para representar a fila e implemente funções para adicionar clientes, remover clientes e mostrar a posição de um cliente específico na fila.
+fila =["Carlos","Marcos", "Meiri", "Yasmin", "Jorge"]
 
+print("Olá, bem vindo a fila")
+variavelAcao = int(input("Para adicionar digite 1, para excluir digite 2 e para ver a posicao digite 3 "))
 
+if variavelAcao == 1:
+   novoNome = input("digite um nome para ser adicionado")
+   fila.append(novoNome)
+   print("fila alterada "+fila)
+elif variavelAcao == 2:
+   nomeExcluir = input("Nomes na fila: "+fila+" \n digite o nome que será excluido")
+   fila.remove(nomeExcluir)
+   print("fila alterada "+fila)
+elif variavelAcao == 3:
+   verPosicao = input("qual cliente deseja ver a posição? "+fila+" ")
+   
+   for i in fila:
+      if fila == verPosicao:
+         print("A posição do "+verPosicao+" é "+i)
+   
+else: print("numero invalido")
 
 
 
