@@ -172,21 +172,63 @@ print("Olá, bem vindo a fila")
 variavelAcao = int(input("Para adicionar digite 1, para excluir digite 2 e para ver a posicao digite 3 "))
 
 if variavelAcao == 1:
-   novoNome = input("digite um nome para ser adicionado")
+   novoNome = input("digite um nome para ser adicionado ")
    fila.append(novoNome)
-   print("fila alterada "+fila)
+   print("fila alterada "+str(fila))
 elif variavelAcao == 2:
-   nomeExcluir = input("Nomes na fila: "+fila+" \n digite o nome que será excluido")
+   nomeExcluir = input("Nomes na fila: "+str(fila)+" \n digite o nome que será excluido ")
    fila.remove(nomeExcluir)
-   print("fila alterada "+fila)
+   print("fila alterada "+str(fila))
 elif variavelAcao == 3:
-   verPosicao = input("qual cliente deseja ver a posição? "+fila+" ")
+   verPosicao = input("qual cliente deseja ver a posição? "+str(fila)+" ")
    
-   for i in fila:
-      if fila == verPosicao:
-         print("A posição do "+verPosicao+" é "+i)
-   
+   for i, nome in enumerate(fila):
+      if verPosicao == nome:
+         print("A posição do "+str(verPosicao)+" é "+str(i+1))
+      
+      
 else: print("numero invalido")
+
+
+# 4 - Uso de Operadores Lógicos em Estruturas Condicionais:
+# Implemente um jogo de adivinhação em que o programa escolhe um número aleatório e o jogador deve adivinhar. Forneça dicas se o palpite do jogador estiver próximo do número correto.
+import random
+numSecreto = int(random.randint(1,100))
+errou = True
+while errou:
+   numTentativa = int(input("Qual é o numero aleatório "))
+   if numTentativa < numSecreto:
+     print("Um pouco mais alto")
+   elif numTentativa > numSecreto:
+      print("Um pouco mais baixo")
+   else: 
+         errou = False 
+         print("Acertou!!!!") 
+
+  # Desenvolva uma calculadora que permita ao usuário realizar operações básicas (soma, subtração, multiplicação, divisão) e operações avançadas (potenciação, raiz quadrada). Utilize funções para cada operação.
+num1 = int(input("Digite o primeiro numero"))
+num2 = int(input("Digite o segundo numero"))
+operacao = int(input("Qual operação deseja fazer?\n 1 - soma\n2-subtração\n3-multiplicação\n4-divisão "))
+opNoFeita = True
+while opNoFeita:
+    if operacao == 1:
+     resultado = num1 + num2
+     print("O resultado é "+str(resultado))
+     opNoFeita = False
+    elif operacao == 2: 
+     resultado = num1 - num2
+     print("O resultado é "+str(resultado))
+     opNoFeita = False
+    elif operacao == 3: 
+     resultado = num1 * num2
+     print("O resultado é "+str(resultado))
+     opNoFeita = False
+    elif operacao == 4: 
+     resultado = num1 / num2
+     print("O resultado é "+str(resultado))
+     opNoFeita = False
+    else: print("operação inexistente")
+
 
 
 

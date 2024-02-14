@@ -1,23 +1,31 @@
-fila =["Carlos","Marcos", "Meiri", "Yasmin", "Jorge"]
+# 5 - Desafios Extras:
+# Crie um programa que simule um jogo de tabuleiro, como xadrez ou damas. Permita que dois jogadores movam suas peças e valide se os movimentos são legais.
 
-print("Olá, bem vindo a fila")
-variavelAcao = int(input("Para adicionar digite 1, para excluir digite 2 e para ver a posicao digite 3 "))
+# Desenvolva um sistema de gerenciamento de tarefas. O programa deve permitir ao usuário adicionar, editar, marcar como concluída e excluir tarefas. Utilize estruturas de dados apropriadas.
+num1 = int(input("Digite o primeiro numero"))
+num2 = int(input("Digite o segundo numero"))
+opNoFeita = True
+while opNoFeita:   
+    operacao = int(input("Qual operação deseja fazer?\n 1 - soma\n2-subtração\n3-multiplicação\n4-divisão "))
+    if operacao == 1:
+     resultado = num1 + num2
+     print("O resultado é "+str(resultado))
+     opNoFeita = False
+    elif operacao == 2: 
+     resultado = num1 - num2
+     print("O resultado é "+str(resultado))
+     opNoFeita = False
+    elif operacao == 3: 
+     resultado = num1 * num2
+     print("O resultado é "+str(resultado))
+     opNoFeita = False
+    elif operacao == 4: 
+     resultado = num1 / num2
+     print("O resultado é "+str(resultado))
+     opNoFeita = False
+    else: print("operação inexistente")
 
-if variavelAcao == 1:
-   novoNome = input("digite um nome para ser adicionado ")
-   fila.append(novoNome)
-   print("fila alterada "+str(fila))
-elif variavelAcao == 2:
-   nomeExcluir = input("Nomes na fila: "+str(fila)+" \n digite o nome que será excluido ")
-   fila.remove(nomeExcluir)
-   print("fila alterada "+str(fila))
-elif variavelAcao == 3:
-   verPosicao = input("qual cliente deseja ver a posição? "+str(fila)+" ")
-   
-   for i, nome in enumerate(fila):
-      if verPosicao == nome:
-         print("A posição do "+str(verPosicao)+" é "+str(i+1))
-      
-      
-else: print("numero invalido")
 
+
+         
+  
