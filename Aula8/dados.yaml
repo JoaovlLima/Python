@@ -1,0 +1,404 @@
+altura:
+- 1.72
+- 1.51
+- 1.75
+- 1.83
+- 1.78
+- 1.86
+- 1.94
+- 1.54
+- 1.6
+- 1.91
+- 1.58
+- 1.85
+- 1.74
+- 1.95
+- 1.64
+- 1.52
+- 1.75
+- 1.93
+- 1.83
+- 1.79
+- 1.8
+- 1.8
+- 1.65
+- 1.61
+- 1.97
+- 1.54
+- 1.83
+- 1.97
+- 1.82
+- 1.63
+- 1.65
+- 1.63
+- 1.77
+- 1.83
+- 1.93
+- 1.83
+- 1.77
+- 1.76
+- 1.91
+- 1.99
+- 1.82
+- 1.82
+- 1.95
+- 1.53
+- 1.91
+- 1.88
+- 1.62
+- 1.71
+- 1.65
+- 1.52
+- 1.81
+- 1.77
+- 1.95
+- 1.97
+- 1.61
+- 1.57
+- 1.54
+- 1.55
+- 1.67
+- 1.95
+- 1.74
+- 1.75
+- 1.83
+- 1.53
+- 1.69
+- 1.51
+- 1.94
+- 1.89
+- 1.58
+- 1.84
+- 1.84
+- 1.73
+- 1.68
+- 1.69
+- 1.87
+- 1.98
+- 1.67
+- 1.68
+- 1.98
+- 1.54
+- 1.98
+- 1.58
+- 1.89
+- 1.62
+- 1.75
+- 1.77
+- 1.65
+- 1.76
+- 1.86
+- 1.55
+- 1.98
+- 1.52
+- 1.85
+- 1.61
+- 1.65
+- 1.83
+- 1.92
+- 1.99
+- 1.88
+- 1.65
+alunos:
+- Renan Martins
+- "Andr\xE9 Cardoso"
+- Joaquim Gomes
+- "Jo\xE3o Felipe da Rocha"
+- Dr. Pedro Miguel Caldeira
+- Marcela Barbosa
+- Renan da Cruz
+- Gustavo Henrique Novaes
+- Kevin Farias
+- Emanuella Rodrigues
+- Mirella Ribeiro
+- Emilly Almeida
+- Julia da Rosa
+- "Luiz Fernando Arag\xE3o"
+- "Ana J\xFAlia Barros"
+- "Dr. Yago Foga\xE7a"
+- Nicolas Viana
+- "Sr. Ot\xE1vio Nunes"
+- "Pietra Arag\xE3o"
+- Sabrina da Costa
+- Lucas Farias
+- Bruna Oliveira
+- "Caroline Arag\xE3o"
+- Srta. Maria Julia Cunha
+- Ana Clara Rocha
+- Larissa Moraes
+- Lorenzo Porto
+- Alice Moreira
+- Leandro da Cunha
+- Luiz Felipe Barbosa
+- Pedro Lucas da Mota
+- Rebeca Campos
+- "Dr. Jo\xE3o Pedro da Costa"
+- Ian Farias
+- Enrico Rezende
+- Kaique Campos
+- "Lucas Gabriel Ara\xFAjo"
+- Thales Moura
+- "Ben\xEDcio Silveira"
+- Danilo Souza
+- Srta. Eduarda Souza
+- Dr. Pietro Ramos
+- "Davi Lucas Gon\xE7alves"
+- Fernando Ramos
+- Samuel Souza
+- Emanuella Campos
+- Gabrielly Lopes
+- "Alana da Concei\xE7\xE3o"
+- Enzo Alves
+- "Helo\xEDsa Martins"
+- "Ben\xEDcio Costa"
+- Sr. Davi Luiz Cardoso
+- Daniel Cunha
+- Eduardo Souza
+- Kaique Pereira
+- Noah Duarte
+- Isadora Rocha
+- Rodrigo Rodrigues
+- Isabel Jesus
+- Milena Cavalcanti
+- Ana Luiza Fernandes
+- Pietra Santos
+- "Andr\xE9 Pereira"
+- "Ben\xEDcio Pereira"
+- Caio Campos
+- Sr. Raul Moraes
+- Bruno Moura
+- Marcelo Silveira
+- Brenda Freitas
+- "Ana Vit\xF3ria Oliveira"
+- Julia Castro
+- "Sra. Lav\xEDnia da Luz"
+- Evelyn Nascimento
+- "Srta. Mait\xEA Silva"
+- "Henrique Arag\xE3o"
+- Ana Laura Pires
+- Ana Julia Souza
+- Helena Costela
+- "Dr. Lucca Gon\xE7alves"
+- "Lav\xEDnia Rezende"
+- Davi Lucca Freitas
+- "Lav\xEDnia Rezende"
+- Dra. Rafaela Nunes
+- Raul da Mota
+- Francisco Rezende
+- Emanuel Monteiro
+- "Dr. Andr\xE9 Souza"
+- Anthony Vieira
+- Marcos Vinicius Oliveira
+- Thales Azevedo
+- Alana Moreira
+- Gabriel Pires
+- Dra. Melissa da Costa
+- Davi Lucca Gomes
+- Eduardo Teixeira
+- Lorenzo Almeida
+- "Dra. Mait\xEA Sales"
+- Luna Rodrigues
+- Srta. Maysa das Neves
+- "Jo\xE3o Vitor Vieira"
+idade:
+- 19
+- 19
+- 20
+- 25
+- 25
+- 19
+- 18
+- 23
+- 24
+- 20
+- 23
+- 21
+- 20
+- 22
+- 21
+- 22
+- 23
+- 19
+- 22
+- 24
+- 24
+- 23
+- 25
+- 22
+- 23
+- 18
+- 22
+- 19
+- 24
+- 21
+- 19
+- 22
+- 24
+- 22
+- 20
+- 23
+- 21
+- 20
+- 21
+- 20
+- 22
+- 21
+- 22
+- 18
+- 19
+- 25
+- 21
+- 20
+- 22
+- 20
+- 19
+- 24
+- 20
+- 21
+- 20
+- 25
+- 18
+- 22
+- 22
+- 18
+- 18
+- 25
+- 22
+- 24
+- 23
+- 18
+- 23
+- 25
+- 24
+- 23
+- 23
+- 22
+- 24
+- 18
+- 20
+- 18
+- 22
+- 21
+- 18
+- 25
+- 22
+- 21
+- 23
+- 21
+- 24
+- 25
+- 20
+- 22
+- 20
+- 20
+- 24
+- 25
+- 23
+- 25
+- 24
+- 18
+- 20
+- 22
+- 25
+- 24
+notas:
+- 1
+- 6
+- 8
+- 7
+- 7
+- 6
+- 4
+- 2
+- 4
+- 6
+- 5
+- 6
+- 6
+- 3
+- 4
+- 1
+- 8
+- 2
+- 7
+- 6
+- 10
+- 6
+- 4
+- 4
+- 1
+- 1
+- 10
+- 9
+- 4
+- 10
+- 2
+- 4
+- 4
+- 6
+- 1
+- 3
+- 9
+- 5
+- 8
+- 6
+- 10
+- 1
+- 1
+- 7
+- 2
+- 6
+- 10
+- 8
+- 1
+- 9
+- 2
+- 1
+- 8
+- 10
+- 7
+- 8
+- 3
+- 7
+- 4
+- 9
+- 5
+- 10
+- 8
+- 7
+- 7
+- 4
+- 4
+- 8
+- 10
+- 8
+- 3
+- 9
+- 3
+- 4
+- 9
+- 1
+- 7
+- 3
+- 9
+- 6
+- 8
+- 4
+- 5
+- 6
+- 10
+- 7
+- 5
+- 2
+- 6
+- 3
+- 2
+- 7
+- 2
+- 8
+- 7
+- 5
+- 10
+- 9
+- 8
+- 10

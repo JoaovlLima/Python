@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
+
 preco_medio_acao1 = np.array([50, 52, 48, 55, 53, 51, 49, 50, 54, 52])
 preco_medio_acao2 = np.array([120, 122, 118, 125, 123, 121, 119, 120, 124, 122])
 
