@@ -33,3 +33,24 @@ with open('Aula8/Projeto/empresa.yaml', 'w') as file:
     yaml.dump(dados, file)
 
 print("Valor total gasto por cliente foi adicionado à tabela de comportamento do cliente.")
+
+
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Supondo que df_cliente seja o DataFrame dos clientes e df_vendas seja o DataFrame das vendas
+
+# Mesclar os DataFrames de cliente e vendas com base no ID do cliente
+df_merged = pd.merge(df_vendas, df_cliente, left_on='cliente_id', right_on='id', how='left')
+
+# Calcular a frequência de compra por cliente
+frequencia_compra = df_merged.groupby(['cliente_id', 'nome']).size().reset_index(name='frequencia')
+
+# Plotar o gráfico de barras
+sns.barplot(data=frequencia_compra, x='nome', y='frequencia')
+plt.xlabel('Nome do Cliente')
+plt.ylabel('Frequência de Compra')
+plt.title('Histograma da Frequência de Compra por Cliente')
+plt.xticks(rotation=45)  # Rotacionar os rótulos do eixo x para facilitar a leitura
+plt.show()
